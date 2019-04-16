@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', init);
 
-
+//function to run once DOM is loaded
 function init(){
   document.querySelector("#Home").addEventListener("click", ()=>window.open(/*home page url*/));
   document.querySelector("#WhyUs").addEventListener("click", ()=>window.open(/*why us url*/));
@@ -9,6 +9,7 @@ function init(){
   formHandler()
 }
 
+//get form input value, submit to ___ if input isn't empty
 function formHandler(){
   let form= document.querySelector('#Form').addEventListener('submit',function(){
     event.preventDefault();
