@@ -1,0 +1,129 @@
+body{
+	overflow-x: hidden;
+}
+.navBar{
+	height:5vh;
+	display: inline-flex;
+	width: 100%;
+}
+.leftDiv{
+	width:30%;
+	padding-left:20px;
+}
+.rightNav{
+ display: inline-flex;
+	width:70%;
+}
+.support{
+	height:25px;;
+}
+.rightNavContent{
+	margin-left:auto;
+  margin-right:20px;
+
+}
+.create{
+	color: 	#736FDE;
+}
+.greenLess{
+	color: 	#85D699;
+}
+
+.greenButton{
+	background-color:  	#85D699;
+	color: white;
+
+}
+.greyButton{
+	background-color:  	#F5F5EB;
+	color:black;
+}
+.inputDomain{
+	width:300px;
+	padding: 10px;
+}
+.greenArrow{
+	border-radius: 50%;
+	height: 75px;
+	width:75px;
+}
+.greenArrow:hover{
+	height:100px;
+	width:100px;
+}
+.arrowImage{
+	height: 50px;
+	width:50px;
+}
+.purpleButton{
+	background-color:  	#7071DC;
+	color:white;
+	padding:5px;
+}
+
+.mainDiv{
+	margin: 10vh;
+	text-align: center;
+}
+
+.learn{
+	text-align: center;
+	margin: 5vh;
+	height:20vh;
+}
+
+.paragraph{
+	text-align: center;
+}
+
+.services{
+	text-align: center;
+
+}
+.serviceContainer{
+	text-align: center;
+}
+
+.service{
+	padding:5px;
+	width:40%;
+	display: inline-flex;
+	border-style: solid;
+	background-color: lightgrey;
+}
+
+
+.ready{
+	width: 100vw;
+	margin: 5vh;
+	display: inline-flex;
+
+}
+.readyText{
+	width:50%;
+}
+.readyButtons{
+	width:50%;
+		padding-left: 50%;
+
+}
+.footer{
+	padding:20px;
+	width: 100%;
+	background-color:  	#7071DC;
+	display: inline-flex;
+}
+
+.footerContent{
+	color: white;
+	margin:3vw;
+	width:16vw;
+}
+
+@media screen and (max-width: 479px) {
+	.navBar{display: block}
+	.rightNav{display: block}
+	.footer{display: block}
+	.ready{display: block}
+	.service{display: block}
+}
