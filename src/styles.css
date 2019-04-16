@@ -17,6 +17,9 @@ body{
  .support{
      height:25px;
 }
+.header{
+    font-size: 25px;    
+}
  .rightNavContent{
      margin-left:auto;
      margin-right:20px;
