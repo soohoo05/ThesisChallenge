@@ -16,7 +16,6 @@ body{
 }
  .support{
      height:25px;
-    ;
 }
  .rightNavContent{
      margin-left:auto;
@@ -31,12 +30,12 @@ body{
  .greenButton{
      background-color: #85D699;
      color: white;
-      padding: 5px;
+     padding: 5px;
 }
  .greyButton{
      background-color: #F5F5EB;
      color:black;
-      padding: 5px;
+     padding: 5px;
 }
  .inputDomain{
      width:300px;
