@@ -22,7 +22,7 @@ body{
      height:25px;
 }
 .header{
-    font-size: 25px;    
+    font-size: 25px;
 }
  .create{
      color: #736FDE;
@@ -63,7 +63,7 @@ body{
      padding:5px;
 }
  .mainDiv{
-     margin: 10vh;
+     margin-top: 20vh;
      text-align: center;
 }
  .learn{
@@ -76,6 +76,7 @@ body{
 }
  .services{
      text-align: center;
+
 }
  .serviceContainer{
      text-align: center;
@@ -110,20 +111,39 @@ body{
      margin:3vw;
      width:16vw;
 }
- @media screen and (max-width: 479px) {
+ @media screen and (max-width: 838px) {
      .navBar{
-        display: block
+        display: block;
+        text-align: center;
+    }
+    .leftDiv{
+      width: 100%;
+      padding-left: 0px;
     }
      .rightNav{
-        display: block
+        display: block;
+        width: 100%;
     }
      .footer{
-        display: block
+        display: block;
+
+    }
+    .footerContent{
+      width:90%;
+      text-align: center;
     }
      .ready{
         display: block
     }
-     .service{
-        display: block
+    .readyText{
+        width: 100%
     }
+    .readyButtons{
+      width: 100%;
+      padding-left: 0%;
+    }
+     .service{
+       width: 100%;
+    }
+
 }
