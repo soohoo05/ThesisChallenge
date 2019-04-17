@@ -1,6 +1,13 @@
 body{
      overflow-x: hidden;
 }
+button:hover{
+  -webkit-transform: translateY(6px);
+transform: translateY(6px);
+}
+p:hover{
+  text-decoration: underline;
+}
  .navBar{
      height:5vh;
      display: inline-flex;
@@ -87,6 +94,10 @@ body{
      display: inline-flex;
      border-style: solid;
      background-color: lightgrey;
+}
+.service:hover{
+  background-color: black;
+color:white;
 }
  .ready{
      width: 100vw;
